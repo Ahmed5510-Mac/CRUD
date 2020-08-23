@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+ <body>
+    <div class="container py-5">
+        <div class="py-2 form-group">
+            <label for=""> product Name:</label>
+            <input class="form-control" type="text" id="ProductNameInput">
+        </div>
+
+        <div class="py-2 form-group">
+            <label for=""> product Price:</label>
+            <input class="form-control" type="number"  id="productPriceInput">
+        </div>
+
+        <div class="py-2 form-group">
+            <label for=""> product Category:</label>
+            <input class="form-control" type="text" id="productCategoryInput">
+        </div>
+        <div class="py-2 form-group">
+            <label for=""> product DEscription:</label>
+            <input class="form-control" type="text" id="productDescriptionInput">
+        </div>
+        <button  onclick="addproduct()" class="btn btn-primary"> Add</button>
+    </div>
+    <!-- ================================================== -->
+        <div class="container py-4">
+            <input onkeyup="searchProduct()"  id="serchProduct" type="text" class="form-control w-50 mx-auto my-4 "placeholder="serch">
+            <div class="table text-center">
+                <table class="table  text-white">
+                    <thead class="bg-dark">
+                        <th>index</th>
+                        <th> Product Name</th>
+                        <th>Product Price </th>
+                        <th> Product Category</th>
+                        <th> product Description</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </thead>
+
+                    <tbody class="text-dark" id="tbbody">
+
+                    </tbody>
+
+                </table>
+
+            </div>
+        </div>
+
+    
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<script src="js/myjs.js"></script>
+</body>
+</html>

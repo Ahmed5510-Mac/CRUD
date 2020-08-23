@@ -1,4 +1,27 @@
-body
-{
-    font-family: 'segoe ui light';
+/*
+    DEMO STYLE
+*/
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+/* /*-------------start Navbar------------------*/
+.navbar-brand span             {font-size:40px;}
+.navbar-brand span:first-child {color:#5ebb1e;font-weight: bold;}
+.navbar-brand span:last-child  {color:#ffffff;font-weight:600;font-size:25px;}
+.navbar-nav .nav-link          {font-size: 16px; text-transform: uppercase; margin-left: 10px;}
+.navbar-light .navbar-nav .active>.nav-link{color:#ec1c23;}
+.uper-bg{background-color: #303233; }
+.uper-bg .txt{color: darkorange;}
+.serch-con{display: flex;
+    align-items: center;
+    background-color: #303233;
+    border: 1px solid #52a911;
+    border-radius: 20px;
+    width: 30%; position: absolute; left:350px} 
+    
+  
+.sr-txt{border-radius: 26px 0 0 26px ; background-color:#303233;width:330px;height:35px ; border:  transparent;}
+.txt{padding-left: 90px; margin-left: 250px;}
+.icon4{color:#5ebb1e;}
+/*/*------------- End Navbar ------------------*/
+body{
+
 }
